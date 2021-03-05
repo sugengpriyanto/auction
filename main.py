@@ -14,6 +14,7 @@ def find_higher(bid_rec):
     if amount > higher:
       higher = amount
       winner = bidder
+  clear()
   print(f"The winner is {winner} with a bid of {higher}")
 
 while not finished:
